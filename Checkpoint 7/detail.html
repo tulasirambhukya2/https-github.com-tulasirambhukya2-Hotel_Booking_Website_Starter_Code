@@ -1,0 +1,289 @@
+<html>
+    <head>
+        <title>Detail</title>
+        <style>
+            * {
+                 box-sizing: border-box;
+             }
+            body{
+                margin:0;
+            }
+            .main-container{
+                margin: 0;
+                
+                background-color: #e0e0e0;
+                
+            }
+            header{
+            background-color: rosybrown;
+            position: sticky;
+            top: 0;
+
+            display: flexbox;
+        }
+        .login{
+                display: flex;
+                float: right;
+                margin: 1%;
+                padding: 1%;
+                text-decoration: none;
+                color: black;
+                margin-right: 2%;
+            }
+            #back-color{
+                background-color: rosybrown;
+            }
+
+            #image{
+                margin-top: 2%;
+                /* margin-left: 4%; */
+                text-align: center;
+            }
+            #booking{
+                margin-left: 4%;
+                margin-bottom: 1%;
+               
+            }
+            .text{
+                padding: 5%;
+            }
+            button{
+                padding: 2%;
+               text-align: center;
+            }
+            h2{
+                font-family: cursive;
+            }
+            h4{
+                font-family: cursive;
+            }
+            
+            #hotel{
+                margin-left: 4%;
+                margin-bottom: 2%;
+                margin-top: 1%;
+            }
+
+            #logo{
+            height: 60px;
+            width: 60px;
+            }
+            #img{
+                height: 350px;
+                max-width: 500px;
+                /* padding-left: 1%; */
+                
+                text-align: center;
+                justify-content: space-around;
+
+               
+            }
+
+            #images{
+            height: 20px;
+            width: 22px;
+            }
+
+
+            .footer-main{
+            background-color: rosybrown;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 10px 5px;
+
+            display: flexbox;
+           
+        }
+        .footer-center_co{
+            float: left;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            margin-top: 1%;
+            margin-left: 2%;
+            display: flexbox;
+        }
+        .social-Media{
+            
+            margin-top: 1%;
+            float: right;
+
+            margin-right: 2%;
+            display: flexbox;
+            
+            
+        }
+        .copyRight{
+         /* margin-left: 40%;
+         margin-right: 33%; */
+         /* justify-content: center; */
+         padding-top: 10px; 
+         
+         font-size: 10px;
+
+         text-align: center;
+         display: flexbox;
+        
+        } 
+        .lorem{
+            padding-bottom: 4%;
+        }
+
+        /* .grid-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 20px;
+                border: 1px solid black;
+                height: 400px;
+                width: 70%;
+            } */
+
+            .float-container {
+                /* border: 3px solid #fff; */
+                padding: 20px;
+             }
+
+             section{
+                 display: flex;
+                 margin: 2%;
+             }
+             .div1{
+                 width: 975px;
+                 height: 400px;
+                 border: 1px solid black;
+             }
+             .div2{
+                 width: 375px;
+                 height: 400px;
+                 border: 1px solid black;
+                 padding: 2%;
+             }
+
+
+     
+
+        
+        
+        
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+
+            <header>
+                <div class="back-color">
+                    <a href="index.html">
+                        <img src="logo.png" alt="logo" id="logo" height="100px" width="150px">
+                    </a>                        
+                            <a href="login.html" class="login">Login </a>
+                </div>
+            </header>
+
+
+            <section>
+                <div class="div1">
+                    <div id="image">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" id="img">
+                
+                    </div>
+                </div>
+                <div class="div2">
+                    <div id="booking">
+                        <form action="payment.html">
+                 
+                        <div class="text">
+                         <label>Adults:</label>
+                         <input type="number" min="1"  required/>
+                        </div>
+                        <div class="text">
+                         <label>Name:</label>
+                         <input type="text" required/>
+                        </div>
+                        <div class="text">
+                         <label>From Date:</label>
+                         <input type="date" required/>
+                        </div>
+                         <div class="text">
+                         <label>To Date:</label>
+                         <input type="date" required/>
+                        </div>
+                         <div class="text">
+                         <label>Total:</label>
+                         <input type="number" disabled/>
+                        </div>
+                         <div class="text">
+                         
+                             <button type="submit">Book Now</button>
+                            </div>
+                        </form>
+                     </div>
+                </div>
+            </section>
+          
+           
+
+
+
+
+
+
+       
+
+    <!-- <div id="image">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" id="img">
+
+    </div> -->
+
+
+    
+
+
+    <div id="hotel">
+        <h2>Radisson Blu Hotel</h2>
+        <h4>RATING</h4>
+        <p>5 Star</p>
+        <p>New Delhi</p>
+
+        <h4>AMENITIES</h4>
+
+        <ul>
+            <li>Room Service</li>
+            <li>Restaurant</li>
+            <li>Business center</li>
+            <li>Fitness center</li>
+            <li>Pool</li>
+        </ul>
+
+        <h4>DESCRIPTION</h4>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda officia quidem neque minima, aspernatur commodi consequatur, quod eligendi magnam optio accusantium quos porro. Sapiente commodi tempora ullam autem ut.</p>
+
+    </div>
+
+
+    <footer class="footer-main"> 
+        <div >
+            <a href="contact.html" class="footer-center_co">Contact Us</a>
+        </div>
+        <div  class="social-Media " >
+            <a href="https://www.facebook.com" >
+                <img src="facebook.png" alt="" id="images" class="social" height="20px" width="22px">
+            </a>
+
+            <a href="https://www.instagram.com" >
+                <img src="instagram.png" id="images" class="social" alt="" height="20px" width="22px">
+            </a>
+            <a href="https://twitter.com" >
+                <img src="twitter.png"  id="images" class="social" alt="" height="20px" width="22px">
+            </a>
+            
+        </div>
+            <div class="copyRight">
+                &copy 2020 ROOM SEARCH PVT.LTD
+        </div>
+    </footer>
+
+    </div>
+
+    </body>
+</html>

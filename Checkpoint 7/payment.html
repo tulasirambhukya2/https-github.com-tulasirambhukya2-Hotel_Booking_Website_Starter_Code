@@ -1,0 +1,270 @@
+<html>
+    <head>
+        <title>Payment</title>
+        <style>
+            body{
+                margin:0;
+            }
+            .main-container{
+                margin: 0;
+                padding: 0;
+               background-color: #e0e0e0;
+               font-family: 'Ubuntu',sans-serif;
+            }
+            #logo{
+            height: 60px;
+            width: 60px;
+            }
+            #img{
+               max-height: 300px;
+               max-width: 270px;
+                text-align: center;
+               display: flex;
+               display: grid;
+               display: inline;
+            }
+            .inline{
+                padding-left: 3%;
+            }
+           
+            header{
+            background-color: rosybrown;
+            position: sticky;
+            top: 0;
+            display: flexbox;
+        }
+        .login{
+                display: flex;
+                float: right;
+                margin: 1%;
+                padding: 1%;
+                text-decoration: none;
+                color: black;
+                margin-right: 2%;
+            }
+            #back-color{
+                background-color: rosybrown;
+            }
+
+
+            #hotel{
+                margin-top: 2%;
+                margin-bottom: 2%;
+               width: 50%;
+               margin-left: 25%;
+                background-color: rgb(132,136,139);
+            
+            }
+            .pay{
+                
+                padding-bottom: 8%;
+                /* background-color: #e0e0e0; */
+               
+            }
+            .payNow{
+                color: black;
+                text-decoration: none;
+               margin-top: 10%;
+            }
+            #table{
+                margin: 2%;
+                
+            }
+            table{
+                padding: 5px;
+                margin-top: 5%;  
+            }
+            .tariff{
+                display: flex;
+                padding-left: 10%;
+            }
+            .Amount{
+                display: flex;
+                
+            }
+           
+            #details{
+                margin: 2%;
+                border: 1px solid rgb(132,136,139);
+                border-radius: 5px;
+                /* padding: 1% 2%; */
+                
+                /* justify-content:flex-end; */
+               display: block;
+               display: flex;
+               background-color: rosybrown;
+
+               margin-bottom: 10%;
+              
+                
+                
+            }
+            
+           
+
+            #images{
+            height: 20px;
+            width: 22px;
+            }
+            
+            .footer-main{
+            background-color: rosybrown;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 10px 5px;
+
+            display: flexbox;
+           
+        }
+        .footer-center_co{
+            float: left;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            margin-top: 1%;
+            margin-left: 2%;
+            display: flexbox;
+        }
+        .social-Media{
+            
+            margin-top: 1%;
+            float: right;
+
+            margin-right: 2%;
+            display: flexbox;
+            
+            
+        }
+        .copyRight{
+        
+         padding-top: 10px; 
+         display: flexbox;
+         
+         font-size: 10px;
+
+         text-align: center;
+        
+        } 
+        
+
+
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+
+            <header>
+                <div class="back-color">
+                    <a href="index.html">
+                        <img src="logo.png" alt="logo" id="logo" height="100px" width="150px">
+                    </a>                        
+                            <a href="login.html" class="login">Login </a>
+                </div>
+            </header>
+        
+
+    <div id="hotel">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" id="img">
+        <span class="inline">
+            <h2>Radisson Blu Hotel</h2>
+            <p>#38 of 1,289 hotels in New Delhi</p>
+            <p>National Highway 8,New Delhi 110017 India</p>
+        </span>
+        
+       
+    </div>
+    
+
+
+   
+    
+
+    
+    <div id="details">
+        <div id="table">
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td>John Deo</td>
+                </tr>
+            </table>
+    
+            <table>
+                <tr>
+                    <th>Number of Adults:</th>
+                    <td>2</td> 
+                </tr>
+            </table>
+    
+            <table>
+                <tr>
+                     <th>Check-in Date:</th>
+                    <td>06/06/2020</td>
+                </tr>
+            </table>
+    
+            <table>
+                <tr>
+                    <th>Check-out Date:</th>
+                    <td>08/06/2020</td>
+                </tr>
+            </table>
+    
+        </div>
+
+        <table class="tariff">
+            <tr>
+                <th>Tariff Breakdown:</th>
+                <td>Rs.1000 * 2 Adults * 5 Nights</td>
+            </tr>
+        </table>
+
+       <span class="Amount">
+        
+            <table>
+                <tr>
+                    
+                    <th>Total Amount:</th>
+                    <td>Rs.10000</td>
+                </tr>
+            </table>
+        </span>
+
+        <div class="pay">
+            <a href="payment.html" class="payNow">Pay Now</a>
+        </div>
+    
+
+    </div>
+
+    <!-- <div class="pay">
+        <a href="payment.html" class="payNow">Pay Now</a>
+    </div> -->
+    
+
+    <footer class="footer-main"> 
+        <div >
+            <a href="contact.html" class="footer-center_co">Contact Us</a>
+        </div>
+        <div  class="social-Media " >
+            <a href="https://www.facebook.com" >
+                <img src="facebook.png" alt="" id="images" class="social" height="20px" width="22px">
+            </a>
+
+            <a href="https://www.instagram.com" >
+                <img src="instagram.png" id="images" class="social" alt="" height="20px" width="22px">
+            </a>
+            <a href="https://twitter.com" >
+                <img src="twitter.png"  id="images" class="social" alt="" height="20px" width="22px">
+            </a>
+            
+        </div>
+            <div class="copyRight">
+                &copy 2020 ROOM SEARCH PVT.LTD
+        </div>
+    </footer>
+
+</div>
+    </body>
+</html>
